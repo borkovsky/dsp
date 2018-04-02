@@ -20,7 +20,18 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> >
+pwd
+mkdir
+rm -r (remove recursively, vs. rm X to remove a file X)
+touch data.txt (creates a new file inside a working directory)
+rm
+mv
+ls -a
+cp
+alias
+grep
+sed
 
 ---
 
@@ -32,10 +43,17 @@ What do the following commands do:
 `ls -l`  
 `ls -lh`  
 `ls -lah`  
-`ls -t`  
+`ls -t`
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 
+ls: lists files in the working directory 
+ls -a: lists **all** files in the working directory, including hidden ones
+ls -l: lists contents of a directory in long format 
+ls -lh: list contents of a directory with unit suffixes (Byte, Kilobyte, Megabyte, Gigabyte, Terabyte and Petabyte)
+ls -lah: lists all files in the working directory, including hidden ones, in long format, 
+ls -t: orders files and directories by the time they were last modified.  
+ls -Glp: list all lcontents of a directory in long format, plus write a slash ( '/' ) after and colorize each filename if that file is a directory
 
 ---
 
@@ -43,7 +61,12 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 
+ls -R: also displays subdirectories
+ls -u: displays files by the file access tie
+ls -g: displays the long format, but without the owner's name
+ls -d: displays only directories
+ls -m: displays files as comma separated values
 
 ---
 
@@ -51,7 +74,9 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> >
+Xargs building and executing command lines from standard input. For example, you can use them to find something the directories. By using `find` to search for files or directories and then uses xargs to operate on the results.
+
 
  
 
