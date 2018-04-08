@@ -75,7 +75,7 @@ ls -m: displays files as comma separated values
 What does `xargs` do? Give an example of how to use it.
 
 > >
-Xargs building and executing command lines from standard input. For example, you can use them to find something the directories. By using `find` to search for files or directories and then uses xargs to operate on the results.
+Xargs is useful for building and executing command lines from standard input. For example, you can use them to find something the directories by combining `find` to search for files or directories and then use xargs to operate on the results.
 
 
  
